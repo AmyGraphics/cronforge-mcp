@@ -1,0 +1,22 @@
+name: cronforge-mcp
+displayName: CronForge - Autonomous Background Tasks, Distributed Cron & Queue MCP
+description: Universal background task queues, distributed cron triggers & webhook consumer engine for Cursor, Claude Code & Windsurf. Generates production BullMQ/Inngest queue workers, exponential backoff retries, human-to-crontab expressions, Redis idempotency deduplication guards, and replay-safe webhook listeners.
+category: developer-tools
+homepage: https://github.com/AmyGraphics/cronforge-mcp
+repository: https://github.com/AmyGraphics/cronforge-mcp
+icon: https://raw.githubusercontent.com/AmyGraphics/cronforge-mcp/main/icon.png
+keywords:
+  - cron
+  - background-jobs
+  - message-queues
+  - bullmq
+  - inngest
+  - idempotency
+  - cloudflare-cron
+  - webhooks
+  - cursor
+  - claude
+  - windsurf
+startCommand:
+  type: http
+  url: https://cronforge-api.agentweb-hub.workers.dev/mcp
