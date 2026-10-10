@@ -13,6 +13,12 @@ Universal Autonomous Background Tasks, Distributed Cron, BullMQ & Queue Architec
 `https://cronforge-api.agentweb-hub.workers.dev/mcp`
 
 
+## 🔴 NEW in v1.1 — Live Tool: `parse_cron_expression`
+
+A real cron parser: validates any cron expression (including @aliases, names, ranges, lists, steps), explains every field, computes the next 5 real UTC run times by calendar simulation, and flags impossible schedules and DOM/DOW OR-semantics traps.
+
+No API key needed — works out of the box.
+
 ## 💰 Pricing
 
 **Start free — 10 requests/day, no signup, no card.** Upgrade only if it earns a place in your workflow.
